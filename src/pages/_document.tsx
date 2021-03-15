@@ -1,6 +1,10 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
+<Head>
+  <link rel="manifest" href="/manifest.json" />
+</Head>
+
 interface MyDocumentInterface {
   url: string
   title: string
