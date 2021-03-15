@@ -1,10 +1,6 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-<Head>
-  <link rel="manifest" href="/manifest.json" />
-</Head>
-
 interface MyDocumentInterface {
   url: string
   title: string
@@ -20,6 +16,7 @@ class MyDocument extends Document implements MyDocumentInterface {
     return (
       <Html lang="ja-JP">
         <Head>
+          <link rel="manifest" href="/manifest.json" />
           {/* `<Head>` の内容は必要に応じて変更 */}
           <meta name="description" content={this.description} />
           <meta name="theme-color" content="#333" />
