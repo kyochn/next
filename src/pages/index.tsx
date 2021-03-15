@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from 'styles/Home.module.css'
 // React と NextPage を読み込む
 import React from 'react'
 import { NextPage } from 'next'
